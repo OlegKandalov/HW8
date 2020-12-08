@@ -4,11 +4,11 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car();
+        GenerateCar generateCar = new GenerateCar();
         List<Car> list = new ArrayList<>();
 
         for (int i = 0; i < 100; i++) {
-            list.add(car.randomCar());
+            list.add(generateCar.randomCar());
         }
 
         List<Car> onlyTeslaAndAudi = list.stream()

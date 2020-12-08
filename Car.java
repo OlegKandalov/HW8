@@ -1,6 +1,6 @@
 import java.util.UUID;
 
-public class Car extends GenerateCar {
+public class Car {
     private UUID id;
     private Brand brand;
     private int year;

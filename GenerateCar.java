@@ -24,6 +24,7 @@ public class GenerateCar {
     int getRandomPrice() {
         return random.nextInt(10000) + 10000;
     }
+
     public Car randomCar() {
         return new Car(getRandomId(), getRandomBrand(), getRandomYear(), getRandomMileage(), getRandomPrice());
     }
